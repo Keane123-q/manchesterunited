@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manchester United</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Demo project">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="tob-bar">
+  <h1>MANCHESTER UNITED: THE BIGGEST CLUB IN ENGLAND</h1>
+</div>
+
+<div class="content">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://img.bleacherreport.net/img/images/photos/001/722/263/1215537_crop_north.jpg?1338352334&w=3072&h=2048" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://www.goal.com/story/eric-cantona-celebrates-manchester-united-anniversary/media/gettyimages-1224349.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/60/thumb_59957_default_news_size_5.jpeg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+</div>
+
+    THE CLUB WAS ORIGINALLY KNOWN AS NEWTON HEATH L&YR FOOTBALL CLUB. IT HAS BEEN IN EXISTENCE FOR OVER 140 YEARS. FOR THE 1892-93 SEASON, THE TEAM FIRST ENTERED THE ENGLISH FIRST DIVISION, THEN THE HIGHEST LEAGUE IN ENGLISH FOOTBALL. IN 1902, THE NAME OF THE CLUB WAS CHANGED TO MANCHESTER UNITED FOOTBALL CLUB, AND IN 1908, THEY WON THE FIRST OF THEIR 20 ENGLISH LEAGUE TITLES. THEY THEN MOVED TO OLD TRAFFORD, THE CURRENT STADIUM, IN 1910.
+    <ul>
+      HONOURS
+
+      MAN UNITED ID ONE OF THE MOST DECORATED CLUBS IN WORLD FOOTBALL HAVING WON:
+
+      <li>1X FIFA CLUB WORLD CUP WINNER</li>
+      <li>1X EUROPEAN CHAMPION CLUBS' CUP WINNER</li>
+      <li>20X ENGLISH CHAMPION</li>
+      <li>2X CHAMPIONS LEAGUE WINNER</li>
+      <li>12X FA CUP WINNER</li>
+      <li>5X ENGLISH LEAGUE CUP WINNER</li>
+      <li>1X EUROPA LEAGUE WINNER</li>
+      <li>1X INTERCONTINENTAL CUP WINNER</li>
+      <li>1X CUP WINNERS CUP WINNER</li>
+      <li>1X UEFA SUPERCUP WINNER</li>
+      <li>21X ENGLISH SUPERCUP WINNER</li>
+      <li>2X ENGLISH 2ND TIER CHAMPION
+      </li>
+    </ul>
+
+    ONE OF THE BIGGEST REASONS MAN UNITED IS AS SUCCESSFUL AS THEY ARE IS BECAUSE OF SIR ALEX FERGUSON. HE IS THE MOST SUCCESSFUL MANAGER IN BRITISH FOOTBALL HISTORY. SIR ALEX FERGUSON SPENT A TOTAL OF 26 YEARS AT MANCHESTER UNITED AND LIFTED MORE THAN 30 TROPHIES WITHIN THAT TIME.
+
+    
+
+
+
+<div class="footer">
+  
+  
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<ul></ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lwKFpAOXc64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<ul></ul>
+<div class="sticky">THIS IS MANCHESTER UNITED</div>
+</body>
+</html>
